@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="AgeCalculator.css">
+</head>
+
+<body>
+  <div class="background">
+    <div class="sheet">
+      <div class="card">
+        <div class="date-inputs">
+          <div class="date-input">
+            <label for="day">Day:</label>
+            <input type="number" id="day" name="day" min="1" max="31">
+          </div>
+
+
+          <div class="date-input">
+            <label for="month">Month:</label>
+            <input type="number" id="month" name="month" min="1" max="12">
+          </div>
+
+
+
+          <div class="date-input">
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year" min="1900" max="2025">
+          </div>
+<hr>
+          <button onclick="calculateAge()">
+
+            <img width="20px" src="assets/images/icon-arrow.svg" alt="">
+          </button>
+        </div>
+        <div id="result">
+          <div>
+            <div class="num" id="numberYears">--</div> <div class="lts">years</div>
+          </div>
+          <div>
+            <div class="num" id="numberMonths">--</div> <div class="lts">months</div>
+          </div>
+          <div>
+            <div class="num" id="numberDays">--</div> <div class="lts">days</div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Mischa Belton</a>.
+    </div>
+  </div>
+
+  <script src="AgeCalculator.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+.background {
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    height: 150px;
+}
+
+.sheet {
+    width: 700px;
+    height: 500px;
+    display: flex;
+    align-content: space-around;
+    align-content: end;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 94%);
+    padding: 20px
+}
+
+
+
+.card {
+    width: 400px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 0px 80px 0px;
+    padding: 50px;
+}
+
+
+
+button {
+    width: 40px;
+    height: 40px;
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 1200px;
+}
+
+/* .date-inputs {
+    display: flex;
+    color:black }*/
+
+
+.date-input {
+    display: flex;
+}
+
+.num {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    font-size: large;
+    font-size: 32px;
+    color: hsl(259, 100%, 65%);
+}
+
+/* Style for the horizontal line */
+hr {
+    border: 0;
+    height: 1px;
+    background: #272626;
+    margin: 20px 0;
+  }
+  .lts {
+   color: black;
+  }
