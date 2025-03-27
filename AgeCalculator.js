@@ -26,11 +26,6 @@ function calculateAge() {
   document.getElementById('numberMonths').innerHTML = ageMonths;
 
   document.getElementById('numberDays').innerHTML = ageDays;
-  
-  
-  // `
-  //   <div>${ageYears} years</div>
-  //   <div>${ageMonths} months</div>
-  //   <div>${ageDays} days</div>
-  // `;
+
+
 }
